@@ -1,0 +1,62 @@
+.login-container {
+  /* Estilo del contenedor del formulario de inicio de sesión */
+  width: 300px; /* Ancho del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente el contenedor */
+  padding: 20px; /* Espaciado interno del contenedor */
+  border: 1x solid #ccc; /* Borde del contenedor */
+  border-radius: 17px; /* Esquinas redondeadas del contenedor */
+  background-color: #d7b7f3; /* Color de fondo del contenedor */
+}
+
+h2 {
+  /* Estilo para los encabezados h2 */
+  text-align: center; /* Centrar el texto */
+}
+
+form {
+  /* Estilo para el formulario */
+  display: flex; /* Mostrar los elementos en una línea */
+  flex-direction: column; /* Apilar los elementos verticalmente */
+}
+
+label {
+  /* Estilo para las etiquetas de los campos */
+  margin-bottom: 10px; /* Espacio inferior entre las etiquetas */
+}
+
+input[type="text"],
+input[type="password"] {
+  /* Estilo para los campos de texto y contraseña */
+  padding: 10px; /* Espaciado interno de los campos */
+  border: 1px solid #ccc; /* Borde de los campos */
+  border-radius: 4px; /* Esquinas redondeadas de los campos */
+  margin-bottom: 15px; /* Espacio inferior entre los campos */
+}
+
+input[type="submit"] {
+  /* Estilo para el botón de envío */
+  background-color: #4CAF50; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Borde del botón */
+  border-radius: 10px; /* Esquinas redondeadas del botón */
+  cursor: pointer; /* Cambiar el cursor al pasar el mouse sobre el botón */
+}
+
+input[type="submit"]:hover {
+  /* Estilo para el botón de envío al pasar el mouse sobre él */
+  background-color: #45a066; /* Color de fondo del botón al pasar el mouse */
+}
+
+.login-container {
+  /* Estilo adicional para el contenedor del formulario */
+  position: absolute; /* Posición absoluta */
+  top: 40%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-50%, -50%); /* Centrar en el centro de la pantalla */
+}
+body {
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e9e4f0, #d3cce3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
